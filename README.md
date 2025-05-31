@@ -8,6 +8,17 @@ This is a command-line tool for creating new projects based on the Prabogo frame
 go install github.com/prabogo/prabogo-install@latest
 ```
 
+If you encounter a module path error, you can install from local source:
+
+```sh
+# Clone the repository
+git clone https://github.com/prabogo/prabogo-install.git
+cd prabogo-install
+
+# Install from local directory
+go install .
+```
+
 ## Usage
 
 ```sh
