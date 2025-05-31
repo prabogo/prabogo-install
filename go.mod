@@ -1,4 +1,4 @@
-module prabogo-install
+module github.com/prabogo/prabogo-install
 
 go 1.23
 
