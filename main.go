@@ -52,7 +52,7 @@ func main() {
 		fmt.Fprintf(os.Stderr, "Error removing .git directory: %v\n", err)
 	}
 
-	// Replace go-boilerplate with the new project name in go.mod
+	// Replace prabogo with the new project name in go.mod
 	goModPath := filepath.Join(projectPath, "go.mod")
 	modifyGoMod(goModPath, projectName)
 
