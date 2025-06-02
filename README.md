@@ -34,7 +34,8 @@ This will:
 1. Clone the Prabogo repository
 2. Remove the .git directory to start fresh
 3. Replace the module name in go.mod
-4. Set up everything for your new project
+4. Update import paths in all `.go` files to use the new project name
+5. Set up everything for your new project
 
 ## Customization Options
 
