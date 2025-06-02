@@ -30,13 +30,6 @@ go install .
 prabogo-install my-project-name
 ```
 
-This will:
-1. Clone the Prabogo repository
-2. Remove the .git directory to start fresh
-3. Replace the module name in go.mod
-4. Update import paths in all `.go` files to use the new project name
-5. Set up everything for your new project
-
 ## Customization Options
 
 Future versions may include flags for customizing your new project:
